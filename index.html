@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form
+    class="contact-form"
+    action="https://formspree.io/f/xknyzaaw"
+      method="post"
+    >
+      <ul>
+        <li class="full-name">
+          <input
+            id="name"
+            name="fullname"
+            type="text"
+            maxlength="30"
+            placeholder="Full Name"
+            required
+          />
+        </li>
+        <li>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email address"
+            required
+          />
+        </li>
+        <li>
+          <textarea
+            name="message"
+            id="msg"
+            maxlength="500"
+            placeholder="Enter text here"
+            required
+          ></textarea>
+        </li>
+        <li class="submit-button">
+           <button type="submit" id="submitBtn" onclick="validate()" >Get in touch</button>  <!-- " -->
+          <span id="alert"></span>
+        </li>
+      </ul>
+    </form>
+</body>
+</html>

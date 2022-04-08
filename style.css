@@ -1,0 +1,23 @@
+form input[type="text"],
+  input[type="email"] {
+    width: 684px;
+  }
+
+  form ul li {
+    width: 684px;
+  }
+
+  .submit-button {
+    width: 0%;
+    margin-left: 0%;
+  }
+
+  .submit-button button {
+    margin-left: 0%;
+  }
+
+  textarea {
+    width: 684px;
+    height: 114px;
+    margin-right: 134px;
+  }
